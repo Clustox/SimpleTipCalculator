@@ -27,7 +27,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter actual bill" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-l9-Ke7">
                                 <rect key="frame" x="56" y="56" width="524" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Tip percentage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Rb-ba-3C0">
                                 <rect key="frame" x="20" y="126" width="173" height="21"/>
@@ -71,7 +71,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w64-rH-jM0">
-                                <rect key="frame" x="255" y="334" width="90" height="30"/>
+                                <rect key="frame" x="255" y="324" width="90" height="30"/>
                                 <state key="normal" title="Calculate Tip"/>
                                 <connections>
                                     <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="omi-FO-VVa"/>
@@ -91,7 +91,7 @@
                             <constraint firstItem="Grd-3T-3od" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="KoC-Px-UcH"/>
                             <constraint firstItem="OE4-g9-Lrb" firstAttribute="top" secondItem="wfO-kX-GKr" secondAttribute="bottom" constant="40" id="OMK-XU-sp9"/>
                             <constraint firstItem="wbk-3O-69Q" firstAttribute="leading" secondItem="9Rb-ba-3C0" secondAttribute="leading" id="YH3-zu-C7u"/>
-                            <constraint firstItem="w64-rH-jM0" firstAttribute="top" secondItem="FSa-h1-idD" secondAttribute="bottom" constant="20" id="Yo4-ym-nHY"/>
+                            <constraint firstItem="w64-rH-jM0" firstAttribute="top" secondItem="FSa-h1-idD" secondAttribute="bottom" constant="10" id="Yo4-ym-nHY"/>
                             <constraint firstItem="9Rb-ba-3C0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="beO-S5-bZj"/>
                             <constraint firstItem="RnO-l9-Ke7" firstAttribute="centerY" secondItem="Grd-3T-3od" secondAttribute="centerY" id="cw0-Po-K2M"/>
                             <constraint firstItem="RnO-l9-Ke7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="fNt-KR-Nuc"/>
